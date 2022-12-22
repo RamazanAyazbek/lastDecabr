@@ -1,0 +1,62 @@
+
+  body{
+    position: relative;
+  }
+  .change_lang select{
+    position: absolute;
+    top:0; 
+    right:10px; 
+    color:white;
+    border-radius: 5px;
+    background-color: rgb(180, 175, 175);
+    outline: 0;
+  }
+  
+  .content_earth iframe{
+    border-radius: 20px;
+  }
+  .wrapper{
+    max-width: 1170px;
+    margin: 0 auto; 
+    padding : 0px 15px;
+    text-align: center;
+  }
+  
+  .go_home{
+    margin-top: 20px;
+  }
+  .go_home a{
+    text-decoration: none;
+    margin:0; 
+    padding:20px 10px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(8, 30, 105);
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+  }
+  .go_home a:hover{
+    background-color: rgb(3, 16, 58);
+    color:rgb(206, 236, 186);
+  }
+
+  
+  body{
+  padding-top: 10px;
+  align-items: center;
+  justify-content: center;
+  background: url("../img/mainback.jpg");
+  bottom:0; 
+  }
+  .planeta_earth{
+    text-align: center;
+    margin-top:0px;
+  }
+.map_text{
+    border:2px solid blue;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top:20px; 
+    margin-bottom:30px; 
+    background-color: rgb(255, 255, 255);
+}

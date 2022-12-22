@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/topics.css">
+    <link rel="stylesheet" href="css/select.css">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link rel="stylesheet" href="css/profile.css"> -->
+    <link rel="stylesheet" href="css/select.css">
+    <link rel="stylesheet" href="css/open_card.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/language.css">
+    <!-- footer -->
+    <!-- new -->
+<link rel="stylesheet" href="css/like.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+  <div class="change_lang">
+    <div class="lang_change">
+      <span>Сайт тілі</span>
+      <div class="item_lang"><button id="kaz" class="translate"><img src="img/flagKaz.jpg" width="40px" height="20px" alt=""></button></div>
+      <div class="item_lang"><button id="ru" class="translate"><img src="img/flagrussia.jpg" width="40px" height="20px" alt=""></button></div>
+      </div>
+  </div>
+    <div class="nav">
+        <div class="wrapper">
+         <div class="navigation">
+           <div class="nav-logo">
+             <img src="img/logo-geo1-removebg-preview.png" class="img_logo" alt="">
+           </div>
+           <div class="menu_burger" >
+            <span></span>
+           </div>
+           <div class="burger_list">
+            <li class="list">
+              <a  href="#">
+                  <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                  <span class="text lang " key="home" >Негізгі </span>
+              </a>
+          </li>
+          <li class="list">
+              <a href="profile.html" >
+                  <span class="icon"><ion-icon name="people-circle-outline"></ion-icon></span>
+                  <span class="text lang " key="profile">Жеке Профиль </span>
+              </a>
+          </li>
+          <li class="list">
+              <a href="message.html">
+                  <span class="icon"><ion-icon name="chatbubbles-outline"></ion-icon></span>
+                  <span class="text lang " key="message">Глобус</span>
+              </a>
+          </li>
+          <li class="list">
+              <a href="topics.html">
+                  <span class="icon"><ion-icon name="camera-outline"></ion-icon></span>
+                  <span class="text lang" key="topics" >Тақырыптық тесттер</span>
+              </a>
+          </li>
+          <li class="list">
+              <a href="settings.html" onclick="openTab('Settings')">
+                  <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                  <span class="text lang" key="admin">Админ</span>
+              </a>
+          </li>
+          <div class="footer_burger"></div>
+          </div>
+           <div class="ul">
+            <ul>
+              <li class="list">
+                  <a  href="#">
+                      <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                      <span class="text lang " key="home" >Негізгі </span>
+                  </a>
+              </li>
+              <li class="list">
+                  <a href="profile.html" >
+                      <span class="icon"><ion-icon name="people-circle-outline"></ion-icon></span>
+                      <span class="text lang " key="profile">Жеке Профиль </span>
+                  </a>
+              </li>
+              <li class="list">
+                  <a href="message.html">
+                      <span class="icon"><ion-icon name="chatbubbles-outline"></ion-icon></span>
+                      <span class="text lang " key="message">Глобус</span>
+                  </a>
+              </li>
+              <li class="list active">
+                  <a href="topics.html">
+                      <span class="icon"><ion-icon name="camera-outline"></ion-icon></span>
+                      <span class="text lang" key="topics" >Тақырыптық тесттер</span>
+                  </a>
+              </li>
+              <li class="list">
+                  <a href="settings.html">
+                      <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                      <span class="text lang" key="admin">Админ</span>
+                  </a>
+              </li>
+              <div class="indicator0"></div>
+          </ul>
+           </div>
+           <div class="nav-logo1">
+            <div class="registr_zero">
+            <div class="before_registr">
+            <!-- SIGN IN -->
+            
+            <div class="button-login center_text"><a class="reaction lang" href="signIn.html"  id="open_signin" key="signIn">Кіру</a></div>
+            <!-- SIGN UP-->
+            <div class="button center_text"><a class="reaction lang" href="signUp.html" id="open_pop_up" key="signUp">Тіркелу</a></div>
+          </div>
+        </div>
+          <div class="registr_one">
+          <div class="after_registr">
+            <div class="name_user "><img src="img/Deng.jpg" alt=""> <span>Abdikayr Magzhan</span></div>
+            <div class="sign-out"><a class="lang" key="logout" href="#">Шығу</a></div>
+          </div>
+        </div>
+          </div>
+         </div>
+       </div>
+     
+       </div>
+
+    <div id="topics_page" class="element_menu"> 
+        <div class="wrapper">
+          <div class="topic_content">
+            <div class="topics_test">
+               <div class="topics_select">
+                <div class="tutorial">
+                  <div class="tarau">
+                    <span id="buttun_tarau">1. Bul tarauda biz Otan turaly otemiz </span>
+                   
+                  </div>
+                  <div id="topics">
+                  <div id="topic"><a href="testingpage.html">1.1 earth is our home. 5 billion years ago he's appeared. And we 4 billion duiring year living in this place.  </a> </div>
+                  <div id="topic"><a href="#">1.2 mars</a> </div>
+                  <div id="topic"><a href="#">1.3 jupyter</a> </div>
+                  <div id="topic"><a href="#">1.4 pluton</a> </div>
+                  <div id="topic"><a href="#">1.5 venus</a> </div>
+              
+                </div>
+                </div>
+              
+               </div>
+            </div>
+            <div class="topics_tarau">
+              
+           
+            
+            <div class="carousel_wrapper">
+              <div class="carousel">
+                <div class="slide one">
+                    <div class="images">
+                        <div class="carousel-text">Hi, I'm Ramazan</div>
+                    </div>
+                  </div>
+                  <div class="slide two">
+                    <div class="images">
+                        <div class="carousel-text">Hi,  I'm Alibek</div>
+                    </div>
+                  </div>
+                  <div class="slide three">
+                    <div class="images">
+                        <div class="carousel-text">Hi, I'm Maga</div>
+                    </div>
+                  </div>
+                  <div class="slide four">
+                    <div class="images">
+                        <div class="carousel-text">Hi, I'm Muha</div>
+                    </div>
+                  </div>
+                  <div class="slide five">
+                    <div class="images">
+                        <div class="carousel-text">Hi, I'm Jaha</div>
+                    </div>
+                  </div>
+                  <div class="slide six">
+                    <div class="images">
+                        <div class="carousel-text">Hi, Sala</div>
+                    </div>
+                  </div>
+                  <div class="slide seven">
+                    <div class="images">
+                        <div class="carousel-text">Hi, I'm Tima</div>
+                    </div>
+                  </div>
+                  <div class="slide eight">
+                    <div class="images">
+                        <div class="carousel-text">Hi, It's our website</div>
+                    </div>
+                  </div>
+                  <div class="slide nine">
+                    <div class="images">
+                        <div class="carousel-text">Hi, It's front work</div>
+                    </div>
+                  </div>
+             
+              </div>
+            </div>
+            <div class="content_mobile">
+            <div class="content_snap">
+             
+            <div class="item one">
+                <h4>Hi, I'm Maga</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, neque. 
+                    Voluptas ad dignissimos cum perferendis perspiciatis. Sunt totam accusantium 
+                    </p>
+                    <p>ELEMENT</p>
+            </div>
+            <div class="item two">
+                <h4>Hi, I'm Maga</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, neque. 
+                  Voluptas ad dignissimos cum perferendis perspiciatis. Sunt totam accusantium 
+                  </p> <p>ELEMENT</p>
+            </div>
+            <div class="item three">
+              <h4>Hi, I'm Maga</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, neque. 
+                Voluptas ad dignissimos cum perferendis perspiciatis. Sunt totam accusantium 
+                </p><p>ELEMENT</p>
+          </div>
+          <div class="item four">
+              <h4>Hi, I'm Maga</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, neque. 
+                Voluptas ad dignissimos cum perferendis perspiciatis. Sunt totam accusantium 
+                </p> <p>ELEMENT</p>
+          </div>
+          <div class="item five">
+              <h4>Hi, I'm Maga</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, neque. 
+                Voluptas ad dignissimos cum perferendis perspiciatis. Sunt totam accusantium 
+                </p>  <p>ELEMENT</p>
+          </div>
+          <div class="item six">
+            <h4>Hi, I'm Maga</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, neque. 
+              Voluptas ad dignissimos cum perferendis perspiciatis. Sunt totam accusantium 
+              </p><p>ELEMENT</p>
+        </div>
+        <div class="item seven">
+            <h4>Hi, I'm Maga</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, neque. 
+              Voluptas ad dignissimos cum perferendis perspiciatis. Sunt totam accusantium 
+              </p> <p>ELEMENT</p>
+        </div>
+        <div class="item eight">
+            <h4>Hi, I'm Maga</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, neque. 
+              Voluptas ad dignissimos cum perferendis perspiciatis. Sunt totam accusantium 
+              </p>  <p>ELEMENT</p>
+        </div>
+        <div class="item nine">
+          <h4>Hi, I'm Maga</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, neque. 
+            Voluptas ad dignissimos cum perferendis perspiciatis. Sunt totam accusantium 
+            </p>  <p>ELEMENT</p>
+      </div>
+            </div>
+         
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+<style>
+  /* *{
+      box-sizing: border-box;
+  } */
+
+  .content_snap{
+      display: flex;
+      overflow-x: scroll;
+    
+      
+      scroll-snap-type: x mandatory;
+      scroll-padding: 24px;
+      border-radius: 8px;
+    
+      margin: 0 auto; 
+      border:2px solid black;
+  }
+  .item{
+      /* background-color: aquamarine; */
+      color: white;
+  }
+   .one {
+      background: url('bcImage/images1.jpg');
+      background-repeat: no-repeat;
+      background-size:cover;
+  }
+  .three {
+      background: url('bcImage/images2.jpg');
+      background-repeat: no-repeat;
+      background-size:cover;
+  }
+  .four {
+      background: url('bcImage/images3.jpg');
+            background-repeat: no-repeat;
+      background-size:cover;
+  }
+  .five {
+      background: url('bcImage/images4.jpg');
+            background-repeat: no-repeat;
+      background-size:cover;
+  }
+  .six {
+      background: url('bcImage/mountain1.jpg');
+            background-repeat: no-repeat;
+      background-size:cover;
+  }
+  .seven {
+      background: url('bcImage/mountain2.jpg');
+          background-repeat: no-repeat;
+      background-size:cover;
+  }
+  .eight {
+      background: url('bcImage/mountain3.jpg');
+            background-repeat: no-repeat;
+      background-size:cover;
+  
+  }
+  .nine {
+      background: url('../bcImage/mountain4.jpg');
+            background-repeat: no-repeat;
+      background-size:cover;
+  }
+
+  .two {
+      background: url('bcImage/images1.jpg');
+      background-repeat: no-repeat;
+      background-size:cover;
+  }
+  .content_snap .item{
+      flex: 0 0 100%;
+      padding:100px;
+      border-radius: 8px;
+      scroll-snap-align: start;
+
+  }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="jquery.fancybox.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js'></script>
+
+
+<script src="js/apptopics.js"></script>
+<script src="js/menuburger.js"></script>
+<!-- <script src="js/menuburgertopic.js"></script> -->
+
+<!-- <script src="js/topics.js"></script> -->
+
+</html>

@@ -1,0 +1,17 @@
+.translate{
+    background: transparent;
+    /* border:1px solid white;   */
+    
+}
+.item_lang{
+    margin-right:10px; 
+}
+.item_lang button{
+    cursor: pointer;
+}
+.lang_change{
+    display: flex;
+}
+.lang_change span{
+    margin-right: 5px;
+}
